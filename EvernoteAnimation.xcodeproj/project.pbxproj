@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CA3302F1D372CF300FC3E09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3302E1D372CF300FC3E09 /* main.m */; };
+		4CA330321D372CF300FC3E09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA330311D372CF300FC3E09 /* AppDelegate.m */; };
+		4CA330381D372CF300FC3E09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA330361D372CF300FC3E09 /* Main.storyboard */; };
+		4CA3303A1D372CF300FC3E09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA330391D372CF300FC3E09 /* Assets.xcassets */; };
+		4CA3303D1D372CF300FC3E09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA3303B1D372CF300FC3E09 /* LaunchScreen.storyboard */; };
+		4CA330471D372DCC00FC3E09 /* EvernoteCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA330461D372DCC00FC3E09 /* EvernoteCollectionController.m */; };
+		4CA3304A1D3731AF00FC3E09 /* EvernoteCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA330491D3731AF00FC3E09 /* EvernoteCollectionCell.m */; };
+		4CA330501D37324100FC3E09 /* EvernoteTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3304F1D37324100FC3E09 /* EvernoteTransition.m */; };
+		4CA330531D3739A900FC3E09 /* EvernoteFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA330521D3739A900FC3E09 /* EvernoteFlowLayout.m */; };
+		4CA330561D374BF000FC3E09 /* EvernoteDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA330551D374BF000FC3E09 /* EvernoteDetailController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CA3302A1D372CF300FC3E09 /* EvernoteAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvernoteAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA3302E1D372CF300FC3E09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CA330301D372CF300FC3E09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CA330311D372CF300FC3E09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CA330371D372CF300FC3E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CA330391D372CF300FC3E09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CA3303C1D372CF300FC3E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CA3303E1D372CF300FC3E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CA330451D372DCC00FC3E09 /* EvernoteCollectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvernoteCollectionController.h; sourceTree = "<group>"; };
+		4CA330461D372DCC00FC3E09 /* EvernoteCollectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvernoteCollectionController.m; sourceTree = "<group>"; };
+		4CA330481D3731AF00FC3E09 /* EvernoteCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvernoteCollectionCell.h; sourceTree = "<group>"; };
+		4CA330491D3731AF00FC3E09 /* EvernoteCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvernoteCollectionCell.m; sourceTree = "<group>"; };
+		4CA3304E1D37324100FC3E09 /* EvernoteTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvernoteTransition.h; sourceTree = "<group>"; };
+		4CA3304F1D37324100FC3E09 /* EvernoteTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvernoteTransition.m; sourceTree = "<group>"; };
+		4CA330511D3739A900FC3E09 /* EvernoteFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvernoteFlowLayout.h; sourceTree = "<group>"; };
+		4CA330521D3739A900FC3E09 /* EvernoteFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvernoteFlowLayout.m; sourceTree = "<group>"; };
+		4CA330541D374BF000FC3E09 /* EvernoteDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvernoteDetailController.h; sourceTree = "<group>"; };
+		4CA330551D374BF000FC3E09 /* EvernoteDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvernoteDetailController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CA330271D372CF300FC3E09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CA330211D372CF300FC3E09 = {
+			isa = PBXGroup;
+			children = (
+				4CA3302C1D372CF300FC3E09 /* EvernoteAnimation */,
+				4CA3302B1D372CF300FC3E09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CA3302B1D372CF300FC3E09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CA3302A1D372CF300FC3E09 /* EvernoteAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CA3302C1D372CF300FC3E09 /* EvernoteAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				4CA330441D372D8700FC3E09 /* codes */,
+				4CA330301D372CF300FC3E09 /* AppDelegate.h */,
+				4CA330311D372CF300FC3E09 /* AppDelegate.m */,
+				4CA330361D372CF300FC3E09 /* Main.storyboard */,
+				4CA330391D372CF300FC3E09 /* Assets.xcassets */,
+				4CA3303B1D372CF300FC3E09 /* LaunchScreen.storyboard */,
+				4CA3303E1D372CF300FC3E09 /* Info.plist */,
+				4CA3302D1D372CF300FC3E09 /* Supporting Files */,
+			);
+			path = EvernoteAnimation;
+			sourceTree = "<group>";
+		};
+		4CA3302D1D372CF300FC3E09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CA3302E1D372CF300FC3E09 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CA330441D372D8700FC3E09 /* codes */ = {
+			isa = PBXGroup;
+			children = (
+				4CA330451D372DCC00FC3E09 /* EvernoteCollectionController.h */,
+				4CA330461D372DCC00FC3E09 /* EvernoteCollectionController.m */,
+				4CA330481D3731AF00FC3E09 /* EvernoteCollectionCell.h */,
+				4CA330491D3731AF00FC3E09 /* EvernoteCollectionCell.m */,
+				4CA3304E1D37324100FC3E09 /* EvernoteTransition.h */,
+				4CA3304F1D37324100FC3E09 /* EvernoteTransition.m */,
+				4CA330511D3739A900FC3E09 /* EvernoteFlowLayout.h */,
+				4CA330521D3739A900FC3E09 /* EvernoteFlowLayout.m */,
+				4CA330541D374BF000FC3E09 /* EvernoteDetailController.h */,
+				4CA330551D374BF000FC3E09 /* EvernoteDetailController.m */,
+			);
+			path = codes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CA330291D372CF300FC3E09 /* EvernoteAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CA330411D372CF300FC3E09 /* Build configuration list for PBXNativeTarget "EvernoteAnimation" */;
+			buildPhases = (
+				4CA330261D372CF300FC3E09 /* Sources */,
+				4CA330271D372CF300FC3E09 /* Frameworks */,
+				4CA330281D372CF300FC3E09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EvernoteAnimation;
+			productName = EvernoteAnimation;
+			productReference = 4CA3302A1D372CF300FC3E09 /* EvernoteAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CA330221D372CF300FC3E09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Jsen;
+				TargetAttributes = {
+					4CA330291D372CF300FC3E09 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = E9DZXL3SNJ;
+					};
+				};
+			};
+			buildConfigurationList = 4CA330251D372CF300FC3E09 /* Build configuration list for PBXProject "EvernoteAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CA330211D372CF300FC3E09;
+			productRefGroup = 4CA3302B1D372CF300FC3E09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CA330291D372CF300FC3E09 /* EvernoteAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CA330281D372CF300FC3E09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA3303D1D372CF300FC3E09 /* LaunchScreen.storyboard in Resources */,
+				4CA3303A1D372CF300FC3E09 /* Assets.xcassets in Resources */,
+				4CA330381D372CF300FC3E09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CA330261D372CF300FC3E09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA330321D372CF300FC3E09 /* AppDelegate.m in Sources */,
+				4CA3302F1D372CF300FC3E09 /* main.m in Sources */,
+				4CA330561D374BF000FC3E09 /* EvernoteDetailController.m in Sources */,
+				4CA330501D37324100FC3E09 /* EvernoteTransition.m in Sources */,
+				4CA330471D372DCC00FC3E09 /* EvernoteCollectionController.m in Sources */,
+				4CA3304A1D3731AF00FC3E09 /* EvernoteCollectionCell.m in Sources */,
+				4CA330531D3739A900FC3E09 /* EvernoteFlowLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CA330361D372CF300FC3E09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CA330371D372CF300FC3E09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CA3303B1D372CF300FC3E09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CA3303C1D372CF300FC3E09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CA3303F1D372CF300FC3E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CA330401D372CF300FC3E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CA330421D372CF300FC3E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = EvernoteAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jsen.EvernoteAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CA330431D372CF300FC3E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = EvernoteAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Jsen.EvernoteAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CA330251D372CF300FC3E09 /* Build configuration list for PBXProject "EvernoteAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA3303F1D372CF300FC3E09 /* Debug */,
+				4CA330401D372CF300FC3E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CA330411D372CF300FC3E09 /* Build configuration list for PBXNativeTarget "EvernoteAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA330421D372CF300FC3E09 /* Debug */,
+				4CA330431D372CF300FC3E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CA330221D372CF300FC3E09 /* Project object */;
+}
